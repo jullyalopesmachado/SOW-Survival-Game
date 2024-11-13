@@ -28,7 +28,7 @@ public class ShutOffCellingLights : MonoBehaviour
     void Start()
     {
         DialogueShutOffLights.SetActive(false);
-		//You can write something in the Dialogue like: They are coming. Find a weapon ASAP!!
+		
     }
 
     void OnTriggerEnter(Collider collision)
